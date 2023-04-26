@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="./../style.css" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login</title>
+</head>
+
+<body>
+  <div class="w-full h-screen bg-slate-200 flex items-center justify-center">
+    <div class="w-5/6 h-4/5 rounded-lg bg-white shadow-md flex items-center overflow-hidden">
+      <div class="w-1/3 h-full">
+        <div class="h-1/6 w-full text-center flex items-center justify-center font-bold text-2xl">
+          Login
+        </div>
+        <div class="h-3/6 w-full flex items-center justify-center flex-col">
+          <label class="text-left mb-2 text-sm font-bold" for="Login">Username</label>
+          <input onkeyup="OnValidate()" class="py-2 px-2 h-10 rounded-full shadow-md" type="text" id="username" />
+          <label class="text-left mt-5 text-sm font-bold" for="Password">Password</label>
+          <input onkeyup="OnValidate()" class="py-2 px-2 h-10 rounded-full shadow-md" type="password" id="password" />
+
+          <button id="botaologar" onclick="Login()" class="cursor-pointer mt-10 w-3/5 rounded-full text-white bg-black h-10 py-2" type="submit">
+            Login
+          </button>
+        </div>
+        <div class="h-1/6 w-full text-center text-sm ">
+          <p class="italic">Made by Edu and Deh</p>
+          <p class="text-xs mt-2">ID: 192830912381209</p>
+        </div>
+      </div>
+      <div class="w-2/3 h-full background-login"></div>
+    </div>
+  </div>
+</body>
+
+</html>
+<script src="./../Login/login.js"></script>
