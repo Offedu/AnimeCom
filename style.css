@@ -74,3 +74,8 @@ input {
   background-image: url('./assets/E1AXYq2XIAUnDbM.jpg');
   background-size: cover;
 }
+
+.background-home{
+  background-size: cover;
+  background-image: url('https://i.pinimg.com/originals/66/43/7f/66437fcb0707544af41e54d6eb7edceb.jpg');
+}
