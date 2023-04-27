@@ -76,7 +76,7 @@ input {
 }
 
 /* Home Page */
-.background-login{
+.background-home{
   background-image: url('./assets/bg4.jpg');
   background-size: cover;
 }
