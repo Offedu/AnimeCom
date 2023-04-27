@@ -75,8 +75,14 @@ input {
   background-size: cover;
 }
 
-/* Home Page */
-.background-home{
-  background-image: url('./assets/bg4.jpg');
+/* ===========================Home Page======================================= */
+
+body {
+  background-image: url(./assets/bg4.jpg);
   background-size: cover;
+}
+
+nav {
+  height: 30px;
+  background-color: rgb(57, 57, 199);
 }
